@@ -34,7 +34,7 @@ const Home = () => (
                 News
             </h3>
             <NewsPost title={"Just graduated with my PhD in Computer Science !"} summary={
-                "After three years working my ass off, I finally did it: I defended my PhD thesis entitled \"Surviving the massive proliferation of mobile malware\" on December 8, 2020"
+                "After three years of hard work, I finally did it: I defended my PhD thesis entitled \"Surviving the massive proliferation of mobile malware\" on December 8, 2020"
             } href={"/phd"}/>
             <h3 className="font-bold text-2xl md:text-4xl tracking-tight mb-4 mt-8 text-black dark:text-white">
                 Projects
