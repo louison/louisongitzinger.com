@@ -22,7 +22,7 @@ const Home = () => (
                    className="self-center"
                    rel="noopener noreferrer">
                     <button
-                        className="flex self-center items-center justify-center px-2 font-bold h-8 bg-blue-300 dark:bg-gray-700 text-gray-900 dark:text-gray-100 rounded w-28"
+                        className="flex self-center items-center justify-center px-2 font-bold h-8 bg-green-300 dark:bg-gray-700 text-gray-900 dark:text-gray-100 rounded w-28"
                         type="submit"
                     >
                         Hire me

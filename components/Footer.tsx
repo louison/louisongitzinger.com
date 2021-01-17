@@ -45,14 +45,16 @@ export default function Footer() {
                         Twitter
                     </ExternalLink>
                     <ExternalLink href="https://github.com/louison">GitHub</ExternalLink>
+                    <ExternalLink href="https://www.linkedin.com/in/louison-gitzinger-6a7181b1/">LinkedIn</ExternalLink>
+                    <ExternalLink href="https://open.spotify.com/user/loulouxd">Spotify</ExternalLink>
                     {/*<ExternalLink href="https://www.youtube.com/channel/UCZMli3czZnd1uoc1ShTouQw">*/}
                     {/*    YouTube*/}
                     {/*</ExternalLink>*/}
                 </div>
                 <div className="flex flex-col space-y-4">
-                    {/*<Link href="/uses">*/}
-                    {/*    <a className="text-gray-500 hover:text-gray-600 transition">Uses</a>*/}
-                    {/*</Link>*/}
+                    <Link href="/rapsodie">
+                        <a className="text-gray-500 hover:text-gray-600 transition">Rapsodie</a>
+                    </Link>
                     {/*<Link href="/guestbook">*/}
                     {/*    <a className="text-gray-500 hover:text-gray-600 transition">*/}
                     {/*        Guestbook*/}
