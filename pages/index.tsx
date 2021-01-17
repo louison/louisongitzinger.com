@@ -21,14 +21,18 @@ const Home = () => (
             <h3 className="font-bold text-2xl md:text-4xl tracking-tight mb-4 mt-8 text-black dark:text-white">
                 Friends
             </h3>
-            <FriendCard title="Brio"
-                        description="A dictionary for all on words of adolescence"
-                        href="https://www.instagram.com/brio.ados/?igshid=10ckq98vggljt"
-                        icon="/logos/brio.png"/>
-            <FriendCard title="deuxfleurs.fr"
-                        description=""
-                        href="https://www.instagram.com/brio.ados/?igshid=10ckq98vggljt"
-                        icon="/logos/brio.png"/>
+            <div className="flex flex-col w-full">
+                <div className="grid gap-4 grid-cols-1 sm:grid-cols-2 my-2 w-full">
+                    <FriendCard title="Brio"
+                                description="A dictionary for all re-defining words of adolescence"
+                                href="https://www.instagram.com/brio.ados"
+                                icon="/logos/brio.png"/>
+                    <FriendCard title="deuxfleurs.fr"
+                                description="deuxfleurs.fr is an independent association that offer different cloud services to consume the Internet differently"
+                                href="https://deuxfleurs.fr/"
+                                icon="/logos/deuxfleurs.svg"/>
+                </div>
+            </div>
         </div>
 
 

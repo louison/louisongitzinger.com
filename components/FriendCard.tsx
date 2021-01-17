@@ -15,7 +15,7 @@ const FriendCard = ({title, description, href, icon}: FriendCardProps) => {
             target="_blank"
             rel="noopener noreferrer"
         >
-            <div className="flex items-center border border-gray-200 dark:border-gray-800 rounded p-4">
+            <div className="flex items-center border border-gray-200 h-full dark:border-gray-800 rounded p-4">
                 <div className="h-8 w-8 ml-2 mr-4">
                     <span className="sr-only">{title.toUpperCase()}</span>
                     <div
@@ -23,7 +23,7 @@ const FriendCard = ({title, description, href, icon}: FriendCardProps) => {
                     >
                         <img
                             src={icon}
-                            width="100%"
+                            className="rounded-full"
                         />
                     </div>
                 </div>

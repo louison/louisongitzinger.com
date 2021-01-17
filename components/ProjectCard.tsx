@@ -18,14 +18,12 @@ const ProjectCard = ({title, description, href, icon}: ProjectCardProps) => {
             <div className="flex items-center border border-gray-200 dark:border-gray-800 rounded p-4">
                 <div className="h-8 w-8 ml-2 mr-4">
                     <span className="sr-only">{title.toUpperCase()}</span>
-                    <div
-                        className="h-8 w-8 min-w-sm text-gray-900 dark:text-gray-100"
-                    >
-                        <img
-                            src={icon}
-                            width="100%"
-                        />
-                    </div>
+                        <div className="h-8 w-8 min-w-sm text-gray-900 dark:text-gray-100">
+                            <img src="/logos/rapsodie.png"
+                                 className="rounded-full"
+                            />
+                        </div>
+
                 </div>
                 <div>
                     <h4 className="text-lg font-bold tracking-tight text-gray-900 dark:text-gray-100">
