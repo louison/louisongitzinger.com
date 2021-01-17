@@ -19,7 +19,7 @@ const ProjectCard = ({title, description, href, icon}: ProjectCardProps) => {
                 <div className="h-8 w-8 ml-2 mr-4">
                     <span className="sr-only">{title.toUpperCase()}</span>
                         <div className="h-8 w-8 min-w-sm text-gray-900 dark:text-gray-100">
-                            <img src="/logos/rapsodie.png"
+                            <img src={icon}
                                  className="rounded-full"
                             />
                         </div>
