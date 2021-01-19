@@ -14,7 +14,7 @@ const SEO = {
     description,
     images: [
       {
-        url: 'https://leerob.io/static/images/banner.png',
+        url: 'https://louisongitzinger.com/static/images/banner.png',
         alt: title,
         width: 1280,
         height: 720
@@ -22,8 +22,8 @@ const SEO = {
     ]
   },
   twitter: {
-    handle: '@leeerob',
-    site: '@leeerob',
+    handle: '@sans_efforceur',
+    site: '@sans_efforceur',
     cardType: 'summary_large_image'
   }
 };

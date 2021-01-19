@@ -4,6 +4,7 @@ import FriendCard from "../components/FriendCard";
 import Timeline from "../components/Timeline";
 import NewsPost from "../components/News";
 import Link from 'next/link';
+import TopTracks from "../components/TopTracks";
 
 const Home = () => (
     <Container>
@@ -59,6 +60,14 @@ const Home = () => (
                 </div>
             </div>
             <Timeline/>
+            <h2 className="font-bold text-3xl tracking-tight mb-4 mt-16 text-black dark:text-white">
+                Top Tracks
+            </h2>
+            <p className="text-gray-600 dark:text-gray-400 mb-4">
+                Curious what I'm currently jamming to? Here's my top tracks on Spotify
+                updated daily.
+            </p>
+            <TopTracks />
 
         </div>
     </Container>

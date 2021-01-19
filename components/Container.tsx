@@ -1,14 +1,17 @@
 import {ReactNode} from "react";
 import Footer from "./Footer";
 import NextLink from 'next/link';
+import NowPlaying from "./NowPlaying";
 
 type ContainerProps = {
     children?: ReactNode
 }
 const Container = ({children}: ContainerProps) => {
+
     return (
         <div>
-            <nav className="sticky-nav flex justify-around items-center max-w-4xl w-full p-8 my-0 md:my-8 mx-auto bg-opacity-60">
+            <nav className="sticky-nav flex justify-center items-center max-w-4xl w-full p-8 my-0 md:my-8 mx-auto bg-white dark:bg-black bg-opacity-60">
+                <NowPlaying/>
                 <div>
                     {/*<NextLink href="/dashboard">*/}
                     {/*    <a className="p-1 sm:p-4 text-gray-900 dark:text-gray-100">*/}

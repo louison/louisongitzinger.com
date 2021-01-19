@@ -42,7 +42,7 @@ const Step = ({title, children}: StepProps) => {
                 </svg>
                 <p className="font-medium text-gray-900 dark:text-gray-100">{title}</p>
             </div>
-            <p className="text-gray-700 dark:text-gray-400 ml-6">{children}</p>
+            <p className="prose text-gray-700 dark:text-gray-400 ml-6">{children}</p>
         </li>
     );
 };
@@ -53,10 +53,10 @@ const FullTimeline = () => (
         <Year>2018</Year>
         <ul>
             <Step title="First academic courses as a teacher">
-                <p>I taught two classes of student in Master of Engineering the basics of Cloud computing and Mobile security.</p>
+                I taught two classes of student in Master of Engineering the basics of Cloud computing and Mobile security.
             </Step>
             <Step title="Founded Rapsodie with Rashad">
-                <p>After iterating for a while, we finally decided to launch Rapsodie : our non-profit organization that create social awareness around french rap.</p>
+                After iterating for a while, we finally decided to launch Rapsodie : our non-profit organization that create social awareness around french rap.
             </Step>
             <Step title="Attended my first international conference - Middleware 2018">
             </Step>
@@ -65,7 +65,7 @@ const FullTimeline = () => (
         <Year>2017</Year>
         <ul>
             <Step title="Started a PhD in Computer Science">
-                <p>After a 6 months internship in a research lab, I decided to deep-dive into the academic world.</p>
+                After a 6 months internship in a research lab, I decided to deep-dive into the academic world.
             </Step>
             <Step title="Graduated with a Master's degree in Computer Science at Université de Rennes 1">
             </Step>
@@ -74,7 +74,6 @@ const FullTimeline = () => (
         <Year>2016</Year>
         <ul>
             <Step title="Software Engineer Intern at Nokia Tech - Withings">
-                <p>
                     <ul>
                         <li>
                             Designed and developed back-office tools for the analysis of hardware production chain data.
@@ -86,60 +85,47 @@ const FullTimeline = () => (
                             Improved tools speed to analyze past production data by 10x.
                         </li>
                     </ul>
-                </p>
             </Step>
         </ul>
         <Divider/>
         <Year>2015</Year>
         <ul>
             <Step title="Software Engineer Intern at Rexel France">
-                <p>
                     Developed a remote diagnostics solution for home IoT devices for the support team: initiated the project, developed a long term viable solution, negotiated with stakeholders, and developed a web based version of the tool.
-                </p>
             </Step>
         </ul>
         <Divider/>
         <Year>2014</Year>
         <ul>
             <Step title="Graduated with a Bachelor's degree in Engineering Science">
-                <p>
                     Studied general topics such as electronics, algorithms, networks, embedded systems, mathematics, thermodynamics, fluid mechanics.
-                </p>
             </Step>
         </ul>
         <Divider/>
         <Year>2012</Year>
         <ul>
             <Step title="Reached the Diamond league for the first time on StarCraft II">
-                <p>
                     After trying hard for 2 years 👾
-                </p>
             </Step>
         </ul>
         <Divider/>
         <Year>2014</Year>
         <ul>
             <Step title="Graduated with a Bachelor's degree in Engineering Science">
-                <p>
                     Studied general topics such as electronics, algorithms, networks, embedded systems, mathematics, thermodynamics, fluid mechanics.
-                </p>
             </Step>
         </ul>
         <Divider/>
         <Year>2011</Year>
         <ul>
             <Step title="Graduated High School">
-                <p>
                     Obtained the french Baccalauréat.
-                </p>
             </Step>
         </ul>
         <Divider/>
         <Year>1997</Year>
         <ul>
             <Step title="First memories with a computer">
-                <p className="prose">
-
                     I remember afternoons playing{' '}
                     <a
                         href="https://en.wikipedia.org/wiki/Zoombinis"
@@ -158,7 +144,6 @@ const FullTimeline = () => (
                         Humongous games
                     </a>{' '} (Putt-Putt, Freddi Fish, ...)
                     with my sister.
-                </p>
             </Step>
         </ul>
         <Divider/>
@@ -180,16 +165,16 @@ export default function Timeline() {
             <Year>2020</Year>
             <ul>
                 <Step title={"Gratuated with a PhD in Computer Science"}>
-                    <p>One of the accomplishments I'm most proud of.</p>
+                    One of the accomplishments I'm most proud of.
                 </Step>
                 <Step title={"Moved to Paris"}>
-                    <p>Leaving Rennes after 6 student years in Brittany.</p>
+                    Leaving Rennes after 6 student years in Brittany.
                 </Step>
                 <Step title={"Started freelance work"}>
                 </Step>
                 <Step title={"First academic publication accepted at DAIS 2020"}>
-                    <p>Really proud of having a first academic paper in an international conference in Computer
-                        Science</p>
+                    Really proud of having a first academic paper in an international conference in Computer
+                        Science
                 </Step>
             </ul>
             {isShowingFullTimeline ? (
