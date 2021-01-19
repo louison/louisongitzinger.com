@@ -18,7 +18,7 @@ const Rapsodie = ({}) => {
                 </h1>
                 <div className="mb-8 prose leading-6 text-gray-600 dark:text-gray-400">
                     <p>
-                        I still need to write stuff here, but you can already take a look at what Rapsodie on{' '} <a
+                        I still need to write stuff here, but you can already take a look at what Rapsodie is on{' '} <a
                         href="https://twitter.com/_rapsodie_"
                         target="_blank"
                         rel="noopener noreferrer"

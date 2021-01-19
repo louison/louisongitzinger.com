@@ -4,7 +4,6 @@ import FriendCard from "../components/FriendCard";
 import Timeline from "../components/Timeline";
 import NewsPost from "../components/News";
 import Link from 'next/link';
-import TopTracks from "../components/TopTracks";
 
 const Home = () => (
     <Container>
@@ -12,7 +11,7 @@ const Home = () => (
             <h1 className="font-bold text-3xl md:text-5xl tracking-tight mb-4">
                 Hi, I'm Louison Gitzinger
             </h1>
-            <h2 className="prose text-gray-600 mb-16">PhD and enthusiast problem solver, curious and passionate about
+            <h2 className="prose text-gray-600 mb-8">PhD and enthusiast problem solver, curious and passionate about
                 music, with research and full stack
                 experiences.</h2>
 
@@ -20,7 +19,7 @@ const Home = () => (
                 href="mailto:gitzingerlouison@gmail.com"
             >
                 <a target="_blank"
-                   className="self-center"
+                   className="self-center block sm:hidden"
                    rel="noopener noreferrer">
                     <button
                         className="flex self-center items-center justify-center px-2 font-bold h-8 bg-green-300 dark:bg-gray-700 text-gray-900 dark:text-gray-100 rounded w-28"
@@ -60,14 +59,14 @@ const Home = () => (
                 </div>
             </div>
             <Timeline/>
-            <h2 className="font-bold text-3xl tracking-tight mb-4 mt-16 text-black dark:text-white">
-                Top Tracks
-            </h2>
-            <p className="text-gray-600 dark:text-gray-400 mb-4">
-                Curious what I'm currently jamming to? Here's my top tracks on Spotify
-                updated daily.
-            </p>
-            <TopTracks />
+            {/*<h2 className="font-bold text-3xl tracking-tight mb-4 mt-16 text-black dark:text-white">*/}
+            {/*    Top Tracks*/}
+            {/*</h2>*/}
+            {/*<p className="text-gray-600 dark:text-gray-400 mb-4">*/}
+            {/*    Curious what I'm currently jamming to? Here's my top tracks on Spotify*/}
+            {/*    updated daily.*/}
+            {/*</p>*/}
+            {/*<TopTracks />*/}
 
         </div>
     </Container>
