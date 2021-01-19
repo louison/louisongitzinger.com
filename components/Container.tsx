@@ -53,7 +53,7 @@ const Container = ({children}: ContainerProps) => {
 
                     </Link>
                 </div>
-                <NowPlaying/>
+
             </nav>
             <main className="flex flex-col justify-center bg-white dark:bg-black px-8">
                 {children}
