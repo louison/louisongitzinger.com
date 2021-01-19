@@ -1,7 +1,6 @@
 import {ReactNode} from "react";
 import Footer from "./Footer";
 import NextLink from 'next/link';
-import NowPlaying from "./NowPlaying";
 import Link from "next/link";
 
 type ContainerProps = {
