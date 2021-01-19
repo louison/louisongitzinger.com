@@ -4,7 +4,7 @@ import Image from 'next/image';
 type FunctionCardProps = {
     title: string,
     description: string,
-    type: string,
+    category: string,
     slug: string,
     logo: string
 }
@@ -12,9 +12,9 @@ type FunctionCardProps = {
 export default function FunctionCard({
                                          title,
                                          description,
-                                         type,
+                                         category,
                                          slug,
-                                         logo,
+                                         logo = "default.png",
                                          ...rest
                                      }: FunctionCardProps) {
     return (
@@ -23,7 +23,7 @@ export default function FunctionCard({
                 className="border border-grey-200 dark:border-gray-900 rounded p-4 w-full"
                 {...rest}
             >
-                <div className="flex justify-center">
+                <div className="flex justify-left">
 
                 <Image
                     alt={title}
@@ -32,7 +32,7 @@ export default function FunctionCard({
                     src={`/logos/${logo}`}
                     className="rounded-full"
                 />
-                <p className="ml-2 mt-1 text-gray-700 dark:text-gray-400">{type}</p>
+                <p className="ml-2 mt-1 text-gray-700 dark:text-gray-400">{category}</p>
                 </div>
                 <h3 className="text-lg font-bold text-left mt-2 text-gray-900 dark:text-gray-100">
                     {title}

@@ -30,7 +30,7 @@ export default function Warehouse({ goods }:any) {
             <FunctionCard
               key={good.slug}
               title={good.title}
-              type={good.type}
+              category={good.category}
               slug={good.slug}
               logo={good.logo}
               description={good.description}

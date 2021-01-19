@@ -38,7 +38,7 @@ export default function GoodLayout({ children, frontMatter }:GoodLayoutProps) {
               alt={frontMatter.title}
               height={48}
               width={48}
-              src={`/logos/${frontMatter.logo}`}
+              src={frontMatter.logo ? `/logos/${frontMatter.logo}` : `/logos/default.png`}
               className="rounded-full"
             />
           </div>
