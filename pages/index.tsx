@@ -11,7 +11,7 @@ const Home = () => (
             <h1 className="font-bold text-3xl md:text-5xl tracking-tight mb-4">
                 Hi, I'm Louison Gitzinger
             </h1>
-            <h2 className="prose text-gray-600 mb-8">PhD and enthusiast problem solver, curious and passionate about
+            <h2 className="prose text-gray-600 mb-8">Enthusiast problem solver with a PhD, curious and passionate about
                 music, with research and full stack
                 experiences.</h2>
 
