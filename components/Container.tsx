@@ -11,8 +11,8 @@ const Container = ({children}: ContainerProps) => {
     return (
         <div>
             <nav
-                className="sticky-nav flex flex-row justify-between items-center max-w-4xl w-full p-2 my-0 my-8 md:mb-16 mx-auto bg-white dark:bg-black bg-opacity-60">
-                <div className="flex items-center">
+                className="sticky-nav flex flex-row justify-around sm:justify-between items-center max-w-4xl w-full p-2 my-0 my-8 md:mb-16 mx-auto bg-white dark:bg-black bg-opacity-60">
+                <div className="flex items-center sm:justify-start justify-around w-full">
 
                     {/*<NextLink href="/dashboard">*/}
                     {/*    <a className="p-1 sm:p-4 text-gray-900 dark:text-gray-100">*/}
