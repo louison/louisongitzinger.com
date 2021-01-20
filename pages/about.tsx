@@ -1,8 +1,31 @@
 import Container from "../components/Container";
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {NextSeo} from "next-seo";
-import Publication from "../components/Publication";
+import {IconName} from "@fortawesome/fontawesome-svg-core";
 
+type Link = {
+    iconName: IconName,
+    link: string
+}
 
+const links: Link[] = [
+    {
+        iconName: 'twitter',
+        link: 'https://twitter.com/lgitzing'
+    },
+    {
+        iconName: 'github',
+        link: 'https://github.com/louison'
+    },
+    {
+        iconName: 'linkedin',
+        link: 'https://www.linkedin.com/in/louison-gitzinger-6a7181b1/'
+    },
+    {
+        iconName: 'spotify',
+        link: 'https://open.spotify.com/user/loulouxd'
+    },
+]
 
 const About = ({}) => {
     return (
@@ -53,7 +76,8 @@ const About = ({}) => {
                         >
                             Rennes
                         </a>{' '}
-                        to study Computer Science at Université de Rennes 1 where I graduated with a Master's degree in Computer Science in 2017.
+                        to study Computer Science at Université de Rennes 1 where I graduated with a Master's degree in
+                        Computer Science in 2017.
                         The same year, I specialized in cybersecurity by starting a PhD entitled "Surviving the massive
                         proliferation of mobile malware".
                         In December 2020, I graduated with my PhD and moved to Paris to start my career in Software
@@ -62,40 +86,13 @@ const About = ({}) => {
                         enjoying time with friends and family.
                     </p>
                 </div>
-                <h2 className="font-bold text-3xl tracking-tight mb-4 text-black dark:text-white">
-                    Publications
-                </h2>
-                <Publication
-                    title="DroidAutoML: A Microservice Architecture to Automate the Evaluation of Android Machine Learning Detection Systems"
-                    link="https://link.springer.com/chapter/10.1007%2F978-3-030-50323-9_10"
-                >
-                    The mobile ecosystem is witnessing an unprecedented increase in the number of malware in the wild.
-                    To fight this threat, actors from both research and industry are constantly innovating to bring
-                    concrete solutions to improve security and malware protection.
-                    Traditional solutions such as signature-based anti viruses have shown their limits in front of
-                    massive proliferation of new malware, which are most often only variants specifically designed to
-                    bypass signature-based detection.
-                    Accordingly, it paves the way to the emergence of new approaches based on Machine Learning (ML)
-                    technics to boost the detection of unknown malware variants.
-                    Unfortunately, these solutions are most often underexploited due to the time and resource costs
-                    required to adequately fine tune machine learning algorithms.
-                    In reality, in the Android community, state-of-the-art studies do not focus on model training, and
-                    most often go through an empirical study with a manual process to choose the learning strategy,
-                    and/or use default values as parameters to configure ML algorithms.
-                    However, in the ML domain, it is well known admitted that to solve efficiently a ML problem, the
-                    tunability of hyper-parameters is of the utmost importance.
-                    Nevertheless, as soon as the targeted ML problem involves a massive amount of data, there is a
-                    strong tension between feasibility of exploring all combinations and accuracy.
-                    This tension imposes to automate the search for optimal hyper-parameters applied to ML algorithms,
-                    that is not anymore possible to achieve manually.
-                    To this end, we propose a generic and scalable solution to automatically both configure and evaluate
-                    ML algorithms to efficiently detect Android malware detection systems.
-                    Our approach is based on devOps principles and a microservice architecture deployed over a set of
-                    nodes to scale and exhaustively test a large number of ML algorithms and hyper-parameters
-                    combinations.
-                    With our approach, we are able to systematically find the best fit to increase up to 11% the
-                    accuracy of two state-of-the-art Android malware detection systems.
-                </Publication>
+                <div className="flex w-full justify-center mt-5">
+                    {links.map((rs,i)=>(
+                        <a key={i} href={rs.link} target="_blank" className="px-3">
+                            <FontAwesomeIcon icon={["fab",rs.iconName]} size="2x"/>
+                        </a>
+                    ))}
+                </div>
             </div>
         </Container>
     )

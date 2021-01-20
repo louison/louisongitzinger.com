@@ -6,6 +6,7 @@ import { MDXProvider } from '@mdx-js/react';
 import MDXComponents from '../components/MDXComponents';
 import {DefaultSeo} from 'next-seo';
 import Head from "next/head";
+import '../utils/icons/font-awesome';
 
 function App({Component, pageProps}: AppProps) {
     return (
