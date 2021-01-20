@@ -95,6 +95,14 @@ const PhD = () => {
                     </div>
                 </a>
                 <h3 className="font-bold text-2xl md:text-4xl tracking-tight mb-4 mt-8 text-black dark:text-white">
+                    Thesis defense
+                </h3>
+                <div className="flex items-center justify-center self-center p-3">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/szvX0DnyBas" frameBorder="0"
+                        allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowFullScreen></iframe>
+                </div>
+                <h3 className="font-bold text-2xl md:text-4xl tracking-tight mb-4 mt-8 text-black dark:text-white">
                     Publications
                 </h3>
                 <Publication
