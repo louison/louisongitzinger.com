@@ -76,12 +76,10 @@ const About = ({}) => {
                         >
                             Rennes
                         </a>{' '}
-                        to study Computer Science at Université de Rennes 1 where I graduated with a Master's degree in
-                        Computer Science in 2017.
+                        to study Computer Science at Université de Rennes 1 where I graduated with a Master's degree in 2017.
                         The same year, I specialized in cybersecurity by starting a PhD entitled "Surviving the massive
                         proliferation of mobile malware".
-                        In December 2020, I graduated with my PhD and moved to Paris to start my career in Software
-                        Engineering.
+                        In December 2020, I graduated with my PhD and moved to Paris.
                         I spend my free time hacking around on <a href="/rapsodie">side projects</a>, playing music, and
                         enjoying time with friends and family.
                     </p>
