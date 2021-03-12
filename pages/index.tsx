@@ -11,15 +11,16 @@ const Home = () => (
             <h1 className="font-bold text-3xl md:text-5xl tracking-tight mb-4">
                 Hi, I'm Louison Gitzinger
             </h1>
-            <h2 className="prose text-gray-600 mb-8">Enthusiast problem solver with a PhD, curious and passionate about
-                music, with research and full stack
-                experiences.</h2>
+            <h2 className="prose text-gray-600 mb-8">
+                Enthusiast problem solver with a PhD, curious and passionate about
+                music, with research and full stack experiences.
+            </h2>
 
             <Link
                 href="mailto:gitzingerlouison@gmail.com"
             >
                 <a target="_blank"
-                   className="self-center block sm:hidden"
+                   className="self-center hidden"
                    rel="noopener noreferrer">
                     <button
                         className="flex self-center items-center justify-center px-2 font-bold h-8 bg-green-300 dark:bg-gray-700 text-gray-900 dark:text-gray-100 rounded w-28"
@@ -33,9 +34,13 @@ const Home = () => (
             <h3 className="font-bold text-2xl md:text-4xl tracking-tight mb-4 mt-8 text-black dark:text-white">
                 News
             </h3>
+            <NewsPost title={"Joining the band @Spotify CTRL team in Paris!"} summary={
+                "What a head start and a great opportunity to mix my passions to help artists in their creation process!"
+            } href={"https://artists.spotify.com/blog/innovating-for-writers-and-artists"}/>
             <NewsPost title={"Just graduated with my PhD in Computer Science !"} summary={
                 "After three years of hard work, I finally did it: I defended my PhD thesis entitled \"Surviving the massive proliferation of mobile malware\" on December 8, 2020"
             } href={"/phd"}/>
+
             <h3 className="font-bold text-2xl md:text-4xl tracking-tight mb-4 mt-8 text-black dark:text-white">
                 Projects
             </h3>

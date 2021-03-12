@@ -7,6 +7,7 @@ type ContainerProps = {
     children?: ReactNode
 }
 const Container = ({children}: ContainerProps) => {
+    const hire = false;
 
     return (
         <div>
@@ -28,13 +29,17 @@ const Container = ({children}: ContainerProps) => {
                     <NextLink href="/phd">
                         <a className="p-1 sm:p-4 text-gray-900 dark:text-gray-100">PhD</a>
                     </NextLink>
-                    <NextLink href="/rapsodie">
-                        <a className="p-1 sm:p-4 text-gray-900 dark:text-gray-100">Rapsodie</a>
+                    <NextLink href="/warehouse">
+                        <a className="p-1 sm:p-4 text-gray-900 dark:text-gray-100">Warehouse</a>
                     </NextLink>
+                    {/*<NextLink href="/rapsodie">*/}
+                    {/*    <a className="p-1 sm:p-4 text-gray-900 dark:text-gray-100">Rapsodie</a>*/}
+                    {/*</NextLink>*/}
                     <NextLink href="/about">
                         <a className="p-1 sm:p-4 text-gray-900 dark:text-gray-100">About</a>
                     </NextLink>
                 </div>
+                {hire &&
                 <Link
                     href="mailto:gitzingerlouison@gmail.com"
                 >
@@ -48,8 +53,8 @@ const Container = ({children}: ContainerProps) => {
                             Hire me
                         </button>
                     </a>
-
                 </Link>
+                }
 
             </nav>
             <main className="flex flex-col justify-center bg-white dark:bg-black px-8">
