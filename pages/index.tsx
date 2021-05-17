@@ -34,9 +34,9 @@ const Home = () => (
             <h3 className="font-bold text-2xl md:text-4xl tracking-tight mb-4 mt-8 text-black dark:text-white">
                 News
             </h3>
-            {/*<NewsPost title={"Joining the band @Spotify CTRL team in Paris!"} summary={*/}
-            {/*    "What a head start and a great opportunity to mix my passions to help artists in their creation process!"*/}
-            {/*} href={"https://artists.spotify.com/blog/innovating-for-writers-and-artists"}/>*/}
+            <NewsPost title={"Joining the band @Spotify CTRL team in Paris!"} summary={
+                "What a head start and a great opportunity to mix my passions to help artists in their creation process!"
+            } href={"https://artists.spotify.com/blog/innovating-for-writers-and-artists"}/>
             <NewsPost title={"Just graduated with my PhD in Computer Science !"} summary={
                 "After three years of hard work, I finally did it: I defended my PhD thesis entitled \"Surviving the massive proliferation of mobile malware\" on December 8, 2020"
             } href={"/phd"}/>
