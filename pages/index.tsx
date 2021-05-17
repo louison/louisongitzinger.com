@@ -12,7 +12,7 @@ const Home = () => (
                 Hi, I'm Louison Gitzinger
             </h1>
             <h2 className="prose text-gray-600 mb-8">
-                Enthusiast problem solver with a PhD, curious and passionate about
+                Enthusiast problem solver, curious and passionate about
                 music, with research and full stack experiences.
             </h2>
 
