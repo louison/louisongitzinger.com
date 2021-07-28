@@ -1,6 +1,6 @@
-const title = 'Louison Gitzinger – PhD in computer science';
+const title = 'Louison Gitzinger - Research Scientist @Spotify';
 const description =
-  'PhD and enthusiast problem solver, curious and passionate about music, with research and full stack experiences.';
+  'Enthusiast problem solver, curious and passionate about music, with research and full stack experiences';
 
 const SEO = {
   title,
@@ -22,8 +22,8 @@ const SEO = {
     ]
   },
   twitter: {
-    handle: '@sans_efforceur',
-    site: '@sans_efforceur',
+    handle: '@lgitzing',
+    site: '@lgitzing',
     cardType: 'summary_large_image'
   }
 };
