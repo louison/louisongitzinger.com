@@ -167,6 +167,14 @@ export default function Timeline() {
         <h3 className="font-bold text-2xl md:text-4xl tracking-tight mb-4 mt-8 text-black dark:text-white">
           Timeline
         </h3>
+        <Year>2022</Year>
+        <ul>
+          <Step title={"Rapsodie got fundraised!"}>
+            Joining the team as a CTO !
+            After 2 years of hard work, we finally got our first funding to develop our project.
+          </Step>
+        </ul>
+        <Divider/>
         <Year>2021</Year>
         <ul>
           <Step title={"Joined Spotify"}>
