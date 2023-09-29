@@ -34,7 +34,7 @@ const Home = () => (
             <h3 className="font-bold text-2xl md:text-4xl tracking-tight mb-4 mt-8 text-black dark:text-white">
                 News
             </h3>
-            <NewsPost title={"Stepping into a New Melody with Rapsodie!"} summary={
+            <NewsPost title={"Stepping into a new melody with Rapsodie!"} summary={
                 "I have embarked on an exciting new journey with Rapsodie, the first-of-its-kind fantasy label game! As the Co-founder and CTO, I am diving into a world where technology and music blend seamlessly, creating a platform where players transform into virtual label managers. Our mission is to redefine the music and gaming landscape, offering a unique playground for discovering up-and-coming artists while building legendary music empires. We are not just creating a game; we are shaping a decentralized talent scouting platform that is as innovative as it is engaging."
             } href={"https://artists.spotify.com/blog/innovating-for-writers-and-artists"}/>
             <NewsPost title={"Joining the band @Spotify CTRL team in Paris!"} summary={
